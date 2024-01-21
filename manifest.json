@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "Tabfinder",
+    "version": "1.0",
+    "description": "Extension to search and navigate through open tabs",
+    "permissions": ["tabs"],
+    "browser_action": {
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      },
+      "default_popup": "popup.html"
+    },
+    "commands": {
+      "toggle-tab-search": {
+        "suggested_key": {
+          "default": "Alt+Shift+F",
+          "mac": "Alt+Shift+F"
+        },
+        "description": "Toggle Tab Search"
+      }
+    },
+    "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
+  
